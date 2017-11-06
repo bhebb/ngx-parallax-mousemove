@@ -118,13 +118,13 @@
     "directive-selector": [
       true,
       "attribute",
-      "app",
+      "parallax",
       "camelCase"
     ],
     "component-selector": [
       true,
       "element",
-      "app",
+      "parallax",
       "kebab-case"
     ],
     "use-input-property-decorator": true,

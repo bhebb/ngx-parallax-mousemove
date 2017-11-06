@@ -1,16 +1,18 @@
 {
   "name": "ngx-parallax-mousemove",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "license": "MIT",
+  "description": "A simple angular lib for creating a parallax effect connected to the mousemove event",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "ng serve --aot",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "packagr": "ng-packagr -p ng-package.json"
   },
-  "private": true,
+  "private": false,
   "dependencies": {
     "@angular/animations": "^5.0.0",
     "@angular/common": "^5.0.0",
@@ -41,9 +43,16 @@
     "karma-coverage-istanbul-reporter": "^1.2.1",
     "karma-jasmine": "~1.1.0",
     "karma-jasmine-html-reporter": "^0.2.2",
+    "ng-packagr": "^1.5.0-rc.1",
+    "parallax-js": "^3.1.0",
     "protractor": "~5.1.2",
     "ts-node": "~3.2.0",
     "tslint": "~5.7.0",
     "typescript": "~2.4.2"
+  },
+  "homepage": "https://github.com/bhebb/ngx-parallax-mousemove",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:bhebb/ngx-parallax-mousemove.git"
   }
 }
