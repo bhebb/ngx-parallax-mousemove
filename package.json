@@ -1,6 +1,6 @@
 {
   "name": "ngx-parallax-mousemove",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "description": "A simple angular lib for creating a parallax effect connected to the mousemove event",
   "scripts": {
